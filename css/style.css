@@ -1,6 +1,16 @@
 img,video,audio{
     max-width: 100%;
 }
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(229, 248, 213);
+}
+.wrapper div{
+    width: 500px;
+    padding: 10px;
+}
 /*//////////////////Mohammed/////////////*/
 /*////////////////////Section Team///////////*/
 #team div:first-child{
@@ -46,17 +56,17 @@ section#contact{
     justify-content: center;
     background-color: #4fc680;
     /* width: 50%; */
-    padding: 0 20%;
+    padding: auto;
     flex-direction: column;
 
 }
-#social{
+/* #social{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid rgb(229, 248, 213);
-}
+} */
 #social div{
-    width: 40%;
+    /* width: 40%; */
     color: #fff;
 }
 #social div:first-child h1{
@@ -81,13 +91,13 @@ section#contact{
 
 }
 
-#send{
+/* #send{
     display: flex;
     justify-content: space-between;
     padding: 10px;
-}
+} */
 #send div{
-    width: 45%;
+    /* width: 45%; */
     color: #fff;
 }
 #send div#messege form input,textarea{
@@ -102,6 +112,9 @@ section#contact{
     border-radius: 5px;
     background-color: #fff;
     color: black;
+}
+input{
+    padding: 10px 0;
 }
 #send div#messege form label{
     padding:15px 0 5px 0;
