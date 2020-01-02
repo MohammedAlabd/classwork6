@@ -4,25 +4,34 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 70px;
+    flex-wrap: wrap;
 }
-@media  (max-width: 992px){
-    header {
-        height: 40px;
-   }
-} 
+ 
+@media only screen and (max-width:500px){
+    .header{
+        width:90%
+    }
+}
+
 header li {
     display: inline-block;
     margin: 0px 20px;
     text-decoration: none;
 }
-@media  (max-width: 992px){
+@media  (max-width: 900px){
     header li {
         font-size: small;
         margin: 0px 5px; 
    }
 } 
-@media  (max-width: 992px){
+@media only screen and (max-width:500px){
+    .header li{
+        font-size: x-small;
+        margin: 0px 2px;
+    }
+}
+
+@media  (max-width: 900px){
     header img {
         width: 60px;
         height: 50%;
@@ -35,52 +44,68 @@ header a{
 /* End of header */
 
 /* Code Section */
-#code {
+.container {
     background: linear-gradient(
       to bottom,
       rgba(58, 60, 66, 0.9) 0,
       rgba(58, 60, 66, 0.9) 100%
     ),
     url("img/header.jpg");
+    padding: 100px 0px;
     background-size: 100% 100%;
-    height: 600px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-
 }
-@media  (max-width: 992px){
-    #code {
-        height: 400px;
+@media  (max-width: 900px){
+    .container {
+        padding: 50px 0px;
     }
-} 
-#code h1 {
+}
+@media  (max-width: 500px){
+    .container {
+        padding: 25px 0px;
+    }
+}
+.container h1 {
     font-size: 7em;
     margin: 0px auto;
     color: white;
 }
-@media  (max-width: 992px){
-    #code h1 {
+
+@media  (max-width: 900px){
+    .container h1 {
         font-size: 4em;
         margin: 0px auto; 
     }
 }
-
-#code h5 {
+@media  only screen and (max-width: 500px){
+    .container h1 {
+        font-size: 2em;
+        margin: 0px auto; 
+    }
+}
+.container h5 {
     text-align: center;
     width: 50%;
     color: white;
 }
-@media  (max-width: 992px){
-    #code h5 {
+@media  (max-width: 900px){
+    .container h5 {
         font-size: 10px;
         margin: 0px auto; 
     }
 }
+@media  (max-width: 500px){
+    .container h5 {
+        font-size: 7.5px;
+        margin: 0px auto; 
+    }
+}
 
-#code a{
+.container a{
     border: 1px solid #4fc680;
     background-color: #4fc680;
     border-radius: 5px;
@@ -89,9 +114,15 @@ header a{
     text-decoration: none;
     color: white;
 }
-@media  (max-width: 992px){
-    #code a{
+@media  (max-width: 900px){
+    .container a{
         padding: 5px 20px;
+        font-size: x-small;
+    }
+}
+@media  (max-width: 500px){
+    .container a{
+        padding: 5px 15px;
         font-size: x-small;
     }
 }
@@ -106,7 +137,7 @@ header a{
 .code_image img {
     width: 60px;
 }
-@media  (max-width: 992px){
+@media  (max-width: 900px){
     .code_image img{
         width: 40px;
     }
@@ -114,7 +145,7 @@ header a{
 .code_image p {
     color: white;
 }
-@media  (max-width: 992px){
+@media  (max-width: 900px){
     .code_image p{
         font-size: smaller;
     }
@@ -135,11 +166,12 @@ header a{
     justify-content: space-around;
     
 }
- @media  (max-width: 992px){
-    #container {
-        height: 200px;
+@media  (max-width: 500px){
+    #container{
+        padding: 10px 20px;
+        flex-wrap: wrap;
     }
-} 
+}
 
 #container div {
     margin: 30px 10px;
@@ -148,11 +180,12 @@ header a{
     align-items: center;
     flex-direction: column;
 }
+
 #container img {
     width: 50px;
     max-width: 50%;
 }
-@media  (max-width: 992px){
+@media  (max-width: 900px){
     #container img{
         width: 30px;;
     }
@@ -162,9 +195,14 @@ header a{
     margin: 10px auto;
     color: white;
 }
-@media  (max-width: 992px){
+@media  (max-width: 900px){
     #container h3{
         font-size: 15px;
+    }
+}
+@media  (max-width: 500px){
+    #container h3{
+        font-size: 12px;
     }
 }
 
@@ -180,6 +218,7 @@ header a{
     }
 }
 /* End of Development Section */
+
 #love {
     background-color: rgb(240, 244, 245);
     /*margin: -150px;*/
