@@ -143,3 +143,9 @@ html,body
 #quote2{
     font-size: 260%;
 }
+
+@media only screen and (max-width:749px){
+    #blog p{
+    overflow: scroll;
+}
+}
