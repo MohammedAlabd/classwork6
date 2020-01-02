@@ -501,5 +501,21 @@ input{
     color:black;
 }
 
+/*////////////////////responsen////////////*/
+
+@media only screen and (max-width:900px){
+    .wrapper {
+        flex-direction:column;
+    }    
+    #team div p{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:500px){
+    .wrapper div{
+        width:90%
+    }
+}
+
 
 /*/////////////////MOHAMMED///////////////*/
