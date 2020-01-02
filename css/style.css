@@ -182,7 +182,7 @@ header a{
 /* End of Development Section */
 #love {
     background-color: rgb(240, 244, 245);
-    margin: -150px;
+    /*margin: -150px;*/
     font-family: Arial, Helvetica, sans-serifss;
   }
   .heading {
@@ -205,6 +205,9 @@ header a{
     font-size: 20px;
     line-height: 1.5 em;
   }
+  #love img{
+      width: 30%;
+  }
   #column1 {
     float: left;
     width: 30%;
@@ -215,11 +218,11 @@ header a{
     float: left;
     margin-left: -150px;
   }
-  img {
+  /* img {
     width: 30%;
     margin-left: -10%;
     margin-top: -50px;
-  }
+  } */
   h4 {
     color: rgb(31, 31, 31);
   }
@@ -324,7 +327,7 @@ header a{
 
 #someWords h2{
     padding-bottom: 0;
-    margin-bottom: 1%;
+    margin: 1% auto;
 }
 
 #text2{
@@ -379,3 +382,124 @@ header a{
 #quote2{
     font-size: 260%;
 }
+
+/*//////////////////Mohammed/////////////*/
+img,video,audio{
+    max-width: 100%;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(229, 248, 213);
+}
+.wrapper div{
+    width: 500px;
+    padding: 10px;
+}
+/*////////////////////Section Team///////////*/
+#team div:first-child{
+    text-align: center;
+    background-color: #f1f4f5;
+    margin: 0;
+    
+    padding:5%  ;
+
+}
+#team div h1{
+    font-size:3em;
+    font-weight: 200;
+margin-bottom: 0;}
+#team div h1 strong{
+    font-weight: 900;
+}
+#team div p{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    font-size: 1.3em;
+}
+
+#team div#imags{
+    padding: 5% 0;
+    background-color: #3a3c42;
+    display: flex;
+    align-items: baseline;
+}
+
+#team div#imags img{
+    width: 16.66667%;
+}
+/*////////////////////section Team///////////*/
+
+/*////////////////////section contact///////////*/
+
+section#contact{
+    display: flex;
+    justify-content: center;
+    background-color: #4fc680;
+    padding: auto;
+    flex-direction: column;
+
+}
+#social div{
+    color: #fff;
+}
+#social div:first-child h1{
+    font-size: 2.5em;
+    font-weight: 200;
+    margin-bottom: 0em;
+}
+
+#social div:first-child p{
+    font-size: 1.3em;
+}
+
+#icons{
+    display: flex;
+    justify-content: space-around;
+    font-size: 3em;
+    align-items: center;
+
+}
+#icons i{
+    color: #fff;
+
+}
+
+#send div{
+    color: #fff;
+}
+#send div#messege form input,textarea{
+    width: 100%;
+    margin: 5px 0 10px 0;
+    border-radius: 5px;
+
+}
+#send div#messege form input[type="submit"]{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+}
+input{
+    padding: 6px 0;
+}
+#send div#messege form label{
+    padding:15px 0 5px 0;
+}
+
+#send div:last-child img{
+    padding: 10px 0 20px 0;
+    border-bottom: 1px solid #fff;
+}
+#send div:last-child p a{
+    text-decoration: none;
+    color:black;
+}
+
+
+/*/////////////////MOHAMMED///////////////*/
