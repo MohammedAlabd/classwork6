@@ -422,17 +422,6 @@ header a{
     font-size: 260%;
 }
 
-@media only screen and (max-width:749px){
-    #blog p{
-    overflow: scroll;
-}
-    #blog{
-        width: 55%;
-        height: 55%;
-}
-}
-
-
 /*//////////////////Mohammed/////////////*/
 img,video,audio{
     max-width: 100%;
