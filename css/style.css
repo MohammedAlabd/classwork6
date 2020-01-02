@@ -148,4 +148,8 @@ html,body
     #blog p{
     overflow: scroll;
 }
+    #blog{
+        width: 55%;
+        height: 55%;
+}
 }
